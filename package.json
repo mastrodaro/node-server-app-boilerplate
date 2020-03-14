@@ -4,18 +4,26 @@
   "description": "When you need to server app with rest api.",
   "main": "src/index.js",
   "scripts": {
-    "start": "nodemon --exec babel-node src/index.js ",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "nodemon --exec \"npm run lint && babel-node .\"",
+    "test": "jest",
+    "lint": "eslint ."
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "devDependencies": {
-    "@babel/cli": "^7.8.4",
     "@babel/core": "^7.8.7",
     "@babel/node": "^7.8.7",
     "@babel/preset-env": "^7.8.7",
+    "babel-eslint": "^10.1.0",
+    "babel-jest": "^25.1.0",
     "babel-plugin-module-resolver": "^4.0.0",
-    "nodemon": "^2.0.2"
+    "eslint": "^6.8.0",
+    "eslint-config-prettier": "^6.10.0",
+    "eslint-plugin-jest": "^23.8.2",
+    "eslint-plugin-prettier": "^3.1.2",
+    "jest": "^25.1.0",
+    "nodemon": "^2.0.2",
+    "prettier": "^1.19.1"
   }
 }
