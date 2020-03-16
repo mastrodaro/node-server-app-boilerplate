@@ -8,10 +8,10 @@
 ![](docs/prettier.png "Prettier")
 ![](docs/plus.png "")
 ![](docs/jest.png "Jest")
-![](docs/plus.png "")
-![](docs/restify.png "Restify")
 
-Project skeleton ready to development of node.js server application.
+Project skeleton ready to development of node.js server application. Using restify.
+
+![](docs/restify.png "Restify")
 
 # How to use
 Remove `docs`, edit README.
