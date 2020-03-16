@@ -1,7 +1,7 @@
-import hello from "../src/hello";
+import exampleModel from "../src/models/example";
 
 describe("Example test suite", () => {
   it("Example test", () => {
-    expect(hello()).toEqual("Hello world");
+    expect(exampleModel.getAll()).toHaveLength(2);
   });
 });

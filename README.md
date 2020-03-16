@@ -8,6 +8,8 @@
 ![](docs/prettier.png "Prettier")
 ![](docs/plus.png "")
 ![](docs/jest.png "Jest")
+![](docs/plus.png "")
+![](docs/restify.png "Restify")
 
 Project skeleton ready to development of node.js server application.
 

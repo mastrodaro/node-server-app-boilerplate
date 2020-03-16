@@ -1,5 +1,5 @@
 {
-  "name": "server-app-boilerplate",
+  "name": "node-server-app-boilerplate",
   "version": "1.0.0",
   "description": "When you need to server app with rest api.",
   "main": "src/index.js",
@@ -11,6 +11,12 @@
   "keywords": [],
   "author": "",
   "license": "ISC",
+  "dependencies": {
+    "http-status-codes": "^1.4.0",
+    "restify": "^8.5.1",
+    "restify-errors": "^8.0.2",
+    "restify-router": "^0.5.1"
+  },
   "devDependencies": {
     "@babel/core": "^7.8.7",
     "@babel/node": "^7.8.7",
